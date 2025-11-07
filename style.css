@@ -1,0 +1,42 @@
+*{
+    font-family: poppins;
+    /* border: 1px solid black; */
+}
+.navbar{
+    background-color: #c1ffc4;
+    box-shadow: 0px 1px 20px #484b4d27;
+    /* position: fixed;
+    top: 0;
+    width: 99vw; */
+}
+.nav-link{
+    color: #2a4329;
+}
+.nav-link:hover{
+    color: #0000007c;
+}
+.dropdown-menu{
+    background-color: aliceblue;
+}
+#home{
+    background-image: url("https://t4.ftcdn.net/jpg/02/47/84/83/360_F_247848348_c9xNhBpQ2aAS4UuSkz52n3BaeY6bXhmz.jpg");
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+}
+.homeheading{
+    color: #e1ffe0;
+    font-weight: bold;
+    text-shadow: 2px 2px 7px #0000007f;
+}
+.d-block{
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+.aboutcontent{
+    color: #2a4329;
+}
+.card img{
+    width: 100%;
+    aspect-ratio: 3/2;
+}
