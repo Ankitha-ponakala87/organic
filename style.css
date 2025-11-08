@@ -1,42 +1,83 @@
-*{
+* {
     font-family: poppins;
     /* border: 1px solid black; */
 }
-.navbar{
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
     background-color: #c1ffc4;
     box-shadow: 0px 1px 20px #484b4d27;
+    width: 100vw;
     /* position: fixed;
     top: 0;
     width: 99vw; */
 }
-.nav-link{
+
+.nav-link {
     color: #2a4329;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #0000007c;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     background-color: aliceblue;
 }
-#home{
+
+#about #product #payment #contact #footer {
+    width: 99vw;
+}
+
+#home {
     background-image: url("https://t4.ftcdn.net/jpg/02/47/84/83/360_F_247848348_c9xNhBpQ2aAS4UuSkz52n3BaeY6bXhmz.jpg");
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
+    /* margin-top: 5%; */
 }
-.homeheading{
-    color: #e1ffe0;
+.mainhead{
+    font-size: 60px;
+}
+.homeheading {
+    color: #c1ffc4;
     font-weight: bold;
-    text-shadow: 2px 2px 7px #0000007f;
+    text-shadow: 2px 2px 5px #2a432980;
 }
-.d-block{
+
+#product {
+    background-color: #c1ffc4;
+}
+
+.d-block {
     width: 100%;
     aspect-ratio: 3/2;
 }
-.aboutcontent{
+
+.aboutcontent {
     color: #2a4329;
 }
-.card img{
+
+.card img {
     width: 100%;
     aspect-ratio: 3/2;
+}
+
+.input-group-text {
+    background-color: #c1ffc4;
+    color: #2a4329;
+    font-weight: 600;
+}
+
+.input-group {
+    border: none;
+}
+
+#footer {
+    background-color: #c1ffc4;
+    color: #2a4329;
 }
